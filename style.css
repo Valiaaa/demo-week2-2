@@ -16,11 +16,12 @@ body{
 }
   
 .left {
-	width: 60%;
+	width: 40%;
 }
   
 .right {
-	width: 40%;
+	width: 60%;
+	margin-left: 20%;
 }
 
 .row:after {
@@ -38,9 +39,8 @@ body{
 .box {
 	border: none;
 	padding: 5px;
-	font: 24px/36px sans-serif;
-	width: 200px;
-	height: 200px;
+	width: 40%;
+	height: 650px;
 	overflow: scroll;
 	}
 
@@ -49,10 +49,10 @@ body{
 		height: 12px;
 		}
 		
-		::-webkit-scrollbar-track {
+	/*z	::-webkit-scrollbar-track {
 		border: 1px solid rgb(50, 73, 205);
 		border-radius: 10px;
-		}
+		}*/
 		
 		::-webkit-scrollbar-thumb {
 		background: rgb(50, 73, 205);  
